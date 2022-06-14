@@ -1,0 +1,37 @@
+{
+  "name": "homework_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "lint": "eslint ./lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyrba-Olexyy/my_Homework_1.git"
+  },
+  "author": "Oleksii Hyrba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyrba-Olexyy/my_Homework_1/issues"
+  },
+  "homepage": "https://github.com/Hyrba-Olexyy/my_Homework_1#readme",
+  "devDependencies": {
+    "commander": "9.3.0",
+    "commitizen": "4.2.4",
+    "eslint": "8.17.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "nodemon": "2.0.16"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
